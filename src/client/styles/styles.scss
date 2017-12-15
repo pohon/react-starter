@@ -1,0 +1,25 @@
+body {
+
+  background: url("../images/webpack-logo.png") no-repeat;
+
+  #app{
+    background: white;
+  }
+
+  #header-new {
+    color: black;
+  }
+
+  p {
+    color:red;
+    
+    //@debug "This is a debug flag";
+
+    //comment
+    &:hover {
+      color: yellow;
+    }
+  }
+
+
+}
