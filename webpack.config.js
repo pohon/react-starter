@@ -23,7 +23,8 @@ const getDevConfig = () => {
       }, OUTPUT)
     },
     commonConfig.devServer({
-      contentBase: OUTPUT.path
+      contentBase: OUTPUT.path,
+      historyApiFallback: true // supaya bisa support SPA routing
     }),
     commonConfig.modules(null, [
       {

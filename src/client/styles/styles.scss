@@ -1,25 +1,42 @@
 body {
-
-  background: url("../images/webpack-logo.png") no-repeat;
+  margin:0;padding:0;
+  font-family: Arial, Helvetica, sans-serif;
 
   #app{
+    margin:10px;
     background: white;
   }
 
-  #header-new {
-    color: black;
+  .box{
+    padding:10px;
+    border:1px solid #D0DAFE;
+    border-radius: 4px;
+    width:300px;
+    height:400px;
+    overflow: auto;
+    margin:10px;
   }
 
-  p {
-    color:red;
-    
-    //@debug "This is a debug flag";
-
-    //comment
-    &:hover {
-      color: yellow;
-    }
+  .red{
+    background-color: #FC2C3D;
   }
 
+  .blue{
+    background-color: #5EBBFF;
+  }
 
+  .green{
+    background-color: #72FF9F;
+  }
+
+  .footer{
+    background-color: #FDE30A;
+    height:200px;
+  }
+
+  .active{    
+    background-color: #4B77FF;
+    color:#fff;
+  }
 }
+
